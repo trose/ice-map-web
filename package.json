@@ -11,7 +11,9 @@
     "preview": "vite preview",
     "start": "vite preview --port $PORT",
     "lighthouse": "lighthouse http://localhost:5173 --output html --output-path ./lighthouse-report.html",
-    "performance": "npm run build && npm run lighthouse"
+    "performance": "npm run build && npm run lighthouse",
+    "prepare": "husky",
+    "test": "echo 'no tests yet'"
   },
   "dependencies": {
     "@deck.gl/aggregation-layers": "^9.1.14",
@@ -29,6 +31,8 @@
     "react-leaflet": "^5.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
     "@eslint/js": "^9.33.0",
     "@types/leaflet": "^1.9.20",
     "@types/react": "^19.1.10",
@@ -39,6 +43,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
+    "husky": "^9.1.7",
     "lighthouse": "^11.4.0",
     "postcss": "^8.5.6",
     "rollup-plugin-visualizer": "^5.12.0",
