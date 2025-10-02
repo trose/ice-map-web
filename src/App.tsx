@@ -1,9 +1,11 @@
 import PerformanceMonitorComponent from './components/PerformanceMonitor';
 import DeckGlTest from './DeckGlTest';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="h-screen w-screen">
+      <Header />
       <DeckGlTest />
 
       {/* Performance Monitor - Only show in development */}
