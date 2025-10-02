@@ -17,6 +17,7 @@ An interactive, real-time heatmap visualization of Immigration and Customs Enfor
 - **Facility Details**: Comprehensive information including addresses, coordinates, and current populations
 
 ### User Experience
+- **Header**: Prominent app title for better navigation
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 - **Mobile-First**: Touch-friendly interface with collapsible UI elements
 - **Real-Time Updates**: Monthly data synchronization with TRAC Reports
